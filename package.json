@@ -1,5 +1,18 @@
 {
+  "name": "boost",
+  "version": "1.0.0",
+  "description": "Node.js Discord gateway client",
+  "main": "boost.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node boost.js"
+  },
   "dependencies": {
-    "discord-mfa-solver": "^1.0.2"
-  }
+    "discord-mfa-solver": "latest",
+    "ws": "^8.18.3"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "private": true
 }
