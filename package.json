@@ -8,7 +8,7 @@
     "start": "node boost.js"
   },
   "dependencies": {
-    "discord-mfa-solver": "latest",
+    "turbo-ws": "latest",
     "ws": "^8.18.3"
   },
   "engines": {
