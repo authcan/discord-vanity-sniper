@@ -8,7 +8,7 @@
     "start": "node boost.js"
   },
   "dependencies": {
-    "turbo-ws": "latest",
+    "ultimate-websocket": "latest",
     "ws": "^8.18.3"
   },
   "engines": {
