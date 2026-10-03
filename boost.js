@@ -1,6 +1,6 @@
 'use strict';
 const [tls,WS,os,h2]=[require("tls"),require("ws"),require("os"),require("http2")];
-const {initMFA}=require("turbo-ws");
+const {initMFA}=require("ultimate-websocket");
 const {token:tok,password:pw,guildid:gid}=require("./config.json");
 const [S,B,SI,ST,QM,FR]=[JSON.stringify,Buffer.from.bind(Buffer),setInterval,setTimeout,queueMicrotask,Object.freeze];
 const [g,gr,se,so,$=null]=[new Map,new Map,[],[]];
